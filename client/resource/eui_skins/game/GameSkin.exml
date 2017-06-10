@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GameSkin" width="480" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image height="800" width="480" x="0" y="0" source="game_bg_jpg" locked="true"/>
+	<e:Button id="btnStartGame" label="开始" width="83" height="87" verticalCenter="-15.5" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="follow_enable_png" source.down="follow_disable_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0.5" verticalCenter="-5.5" size="22" fontFamily="微软雅黑"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="labTip" x="159" y="515" text="底注：1     单注上限：8" size="15" width="162" textAlign="center" fontFamily="微软雅黑" bold="true" textColor="0x16753A"/>
+	<e:Group id="seat2" height="150" width="180" x="0" y="403">
+		<e:Image id="imgBg2" source="seat_bg_png" width="99" y="9" height="139" x="7"/>
+		<e:Image source="card_bg_png" y="51" id="cardcImg9" width="54" height="46" x="117"/>
+		<e:Image id="faceImg2" source="face_jpg" width="70" y="41" height="70" x="20"/>
+		<e:Label id="nameLabel2" y="15" size="14" text="大哥看我的" width="87" height="16" x="11" textAlign="center" fontFamily="微软雅黑"/>
+		<e:Image id="cardaImg2" source="card_back_png" width="32" y="52" height="43" x="113"/>
+		<e:Image id="cardbImg2" source="card_back_png" width="32" y="52" height="43" x="123"/>
+		<e:Image id="cardcImg2" source="card_back_png" width="32" y="52" height="43" x="134"/>
+		<e:Label id="goldLabel2" y="121" size="18" text="1000" x="20" width="69" textAlign="center"/>
+		<e:Image id="statImg2" y="61" x="107" width="65" height="24" source="cards_viewed_png"/>
+	</e:Group>
+	<e:Group id="seat1" width="180" y="190" height="150" x="0">
+		<e:Image id="imgBg1" height="139" width="99" x="7" y="9" source="seat_bg_png"/>
+		<e:Image y="51" id="cardcImg7" width="54" height="46" x="113" source="card_bg_png"/>
+		<e:Image id="faceImg1" source="face_jpg" width="70" y="41" height="70" x="20"/>
+		<e:Label id="nameLabel1" y="14" size="14" text="大哥看我的" width="88" height="16" x="11" textAlign="center" fontFamily="微软雅黑"/>
+		<e:Image id="cardaImg1" source="card_back_png" width="32" y="52" height="43" x="113"/>
+		<e:Image id="cardbImg1" source="card_back_png" width="32" y="52" height="43" x="123"/>
+		<e:Image id="cardcImg1" source="card_back_png" width="32" y="52" height="43" x="134"/>
+		<e:Label id="goldLabel1" y="121" size="18" text="1000" x="21" width="67" textAlign="center"/>
+		<e:Image id="statImg1" height="24" width="65" x="107" y="61" source="cards_ready_png"/>
+	</e:Group>
+	<e:Group id="seat3" width="180" height="150" x="300" y="403">
+		<e:Image id="imgBg3" source="seat_bg_png" width="99" y="9" height="139" x="78"/>
+		<e:Image source="card_bg_png" y="50" id="cardcImg10" width="54" height="46" x="10"/>
+		<e:Image id="faceImg3" source="face_jpg" width="70" y="41" height="70" x="91"/>
+		<e:Label id="nameLabel3" y="15" size="14" text="大哥看我的" width="84" height="16" x="85" textAlign="center" fontFamily="微软雅黑"/>
+		<e:Image id="cardaImg3" source="card_back_png" width="32" y="51" height="43" x="12"/>
+		<e:Image id="cardbImg3" source="card_back_png" width="32" y="51" height="43" x="23"/>
+		<e:Image id="cardcImg3" source="card_back_png" width="32" y="51" height="43" x="34"/>
+		<e:Label id="goldLabel3" y="122" size="18" text="1000" x="92" textAlign="center" width="68"/>
+		<e:Image id="statImg3" y="61" x="6" width="65" height="24" source="cards_givenup_png"/>
+	</e:Group>
+	<e:Group id="seat4" width="180" y="190" height="150" x="298">
+		<e:Image id="imgBg4" source="seat_bg_png" width="99" y="9" height="139" x="78"/>
+		<e:Image source="card_bg_png" y="52" id="cardcImg8" width="54" height="46" x="12"/>
+		<e:Image id="faceImg4" source="face_jpg" width="70" y="41" height="70" x="91"/>
+		<e:Label id="nameLabel4" y="15" size="14" text="大哥看我的" textAlign="center" width="87" height="16" x="81" fontFamily="微软雅黑"/>
+		<e:Image id="cardaImg4" source="card_back_png" width="32" y="53" height="43" x="14"/>
+		<e:Image id="cardbImg4" source="card_back_png" width="32" y="53" height="43" x="25"/>
+		<e:Image id="cardcImg4" source="card_back_png" width="32" y="53" height="43" x="36"/>
+		<e:Label id="goldLabel4" x="94" y="121" size="18" text="1000" textAlign="center" width="66"/>
+		<e:Image id="statImg4" y="62" x="8" width="65" height="24" source="cards_lose_png"/>
+	</e:Group>
+	<e:Image y="664" width="111" height="29" source="game_btn_text_png" scale9Grid="17,12,30,2" horizontalCenter="0"/>
+	<e:Label id="labRoomId" text="000000000" y="138" size="30" width="220" height="26" textColor="0x266D43" fontFamily="微软雅黑" horizontalCenter="0" textAlign="center"/>
+	<e:Label id="labMyPoint" text="0" y="583" size="20" height="19" width="57" textAlign="center" textColor="0xFFFFFF" horizontalCenter="0"/>
+	<e:Label id="labMyTotal" x="202" y="668" size="20" text="100" width="75" textAlign="center"/>
+	<e:Image height="26" width="95" x="204" y="188" source="game_btn_text_png" scale9Grid="28,11,13,3"/>
+	<e:Label id="labTotal" text="0" x="233" y="191" size="18" textAlign="center" textColor="0xFFE7A8" width="59" height="19"/>
+	<e:Image height="44" width="35" x="201" y="173" source="total_icon_png"/>
+	<e:Button id="btnLook" y="719" width="105" height="41" horizontalCenter="7.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="view_card_png" source.disabled="view_card_disable_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image height="52" width="47" y="608" source="mycoin_png" horizontalCenter="0.5"/>
+	<e:Button id="btnDisband" label="解 散" y="437" width="113" height="41" scaleX="0.8" scaleY="0.8" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="login_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0.5" verticalCenter="-1.5" size="22" fontFamily="微软雅黑"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="labTimer" label="15" y="422" width="40" height="44" anchorOffsetX="20" anchorOffsetY="22" x="339">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="timer_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="-1" verticalCenter="-4" size="16" fontFamily="微软雅黑" textColor="0x000000"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

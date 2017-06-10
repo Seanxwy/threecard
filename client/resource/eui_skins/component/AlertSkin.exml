@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="AlertSkin" width="327" height="205" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image height="100%" width="100%" x="0" y="0" scale9Grid="17,16,26,27" source="alert_bg_png"/>
+	<e:Label id="labText" text="标签" x="25" y="63" width="272" height="55" verticalAlign="middle" textAlign="center" size="20"/>
+	<e:Button id="btnOk" label="确定" y="157" width="111" height="56" anchorOffsetX="55.5" anchorOffsetY="28" x="95">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="input_ok_png" scale9Grid="37,14,76,28"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" fontFamily="微软雅黑"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnCancel" y="157" anchorOffsetX="55.5" width="111" label="取消" height="56" anchorOffsetY="28" x="226">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="input_ok_png" scale9Grid="37,14,76,28"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" fontFamily="微软雅黑"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

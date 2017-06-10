@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BalanceSkin" width="326" height="449" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image height="100%" width="100%" x="0" y="0" scale9Grid="15,15,30,30" source="input_bg_png"/>
+	<e:Group id="grpBox4" width="280" y="255" height="50" x="23">
+		<e:Label verticalAlign="middle" y="0" backgroundColor="0x52457D" locked="true" textAlign="center" width="100%" height="100%" background="true" x="0"/>
+		<e:Label id="labName4" y="15" size="18" text="labName1" fontFamily="微软雅黑" x="7" width="100"/>
+		<e:Label id="labGold4" y="12" size="22" text="+1" fontFamily="微软雅黑" x="126"/>
+	</e:Group>
+	<e:Group id="grpBox3" width="280" y="199" height="50" x="23">
+		<e:Label verticalAlign="middle" y="0" backgroundColor="0x52457D" locked="true" textAlign="center" width="100%" height="100%" background="true" x="0"/>
+		<e:Label id="labName3" y="15" size="18" text="labName1" fontFamily="微软雅黑" x="7" width="100"/>
+		<e:Label id="labGold3" y="12" size="22" text="+1" fontFamily="微软雅黑" x="126"/>
+	</e:Group>
+	<e:Group id="grpBox2" width="280" y="143" height="50" x="23">
+		<e:Label verticalAlign="middle" y="0" backgroundColor="0x52457D" locked="true" textAlign="center" width="100%" height="100%" background="true" x="0"/>
+		<e:Label id="labName2" y="15" size="18" text="labName1" fontFamily="微软雅黑" x="7" width="100"/>
+		<e:Label id="labGold2" y="12" size="22" text="+1" fontFamily="微软雅黑" x="126"/>
+	</e:Group>
+	<e:Group id="grpBox1" height="50" width="280" x="23" y="86">
+		<e:Label x="0" y="0" width="100%" height="100%" background="true" backgroundColor="0x52457d" textAlign="center" verticalAlign="middle" locked="true"/>
+		<e:Label id="labName1" text="labName1" x="7" y="15" size="18" fontFamily="微软雅黑" width="100"/>
+		<e:Label id="labGold1" text="+1" x="126" y="12" size="22" fontFamily="微软雅黑"/>
+	</e:Group>
+	<e:Button id="btnOk" label="继续游戏" y="404" width="149" height="56" horizontalCenter="87.5" anchorOffsetX="84.5" anchorOffsetY="28">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="input_ok_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="24" fontFamily="微软雅黑"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="labStep" text="第1局" x="80" y="11" width="164" height="26" size="22" fontFamily="微软雅黑" textAlign="center"/>
+	<e:Group id="grpBox5" width="280" y="312" height="50" x="23">
+		<e:Label verticalAlign="middle" y="0" backgroundColor="0x52457D" locked="true" textAlign="center" width="100%" height="100%" background="true" x="0"/>
+		<e:Label id="labName5" y="15" size="18" text="labName1" fontFamily="微软雅黑" x="7" width="100"/>
+		<e:Label id="labGold5" y="12" size="22" text="+1" fontFamily="微软雅黑" x="126"/>
+	</e:Group>
+</e:Skin>

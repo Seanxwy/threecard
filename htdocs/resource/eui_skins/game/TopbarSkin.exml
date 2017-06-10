@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TopbarSkin" width="480" height="72" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image height="100%" width="100%" x="0" y="0" source="topbar_bg_png" alpha="0.3"/>
+	<e:Label id="labelName" text="这是我的名字" x="75" width="225" size="30" fontFamily="微软雅黑" height="30" verticalCenter="0"/>
+	<e:Label id="labelGold" width="69" y="25" size="20" text="10000" x="367" fontFamily="微软雅黑"/>
+	<e:Image height="62" width="62" x="7" source="face_bg_png" scale9Grid="17,24,27,19" verticalCenter="0"/>
+	<e:Image id="imgAvatar" height="50" width="50" x="13" source="face_jpg" verticalCenter="0"/>
+	<e:Image height="26" width="145" x="328" y="22" source="game_btn_text_png" scale9Grid="24,11,12,2" locked="true"/>
+	<e:Image height="27" width="35" x="324" y="20" source="diamond_png"/>
+	<e:Image height="15" width="15" x="449" y="27" source="add_png" alpha="0.6"/>
+</e:Skin>

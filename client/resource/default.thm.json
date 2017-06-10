@@ -1,0 +1,15 @@
+{
+  "autoGenerateExmlsList": true,
+  "exmls": [
+    "resource/eui_skins/component/AlertSkin.exml",
+    "resource/eui_skins/component/BalanceSkin.exml",
+    "resource/eui_skins/component/GameButtonSkin.exml",
+    "resource/eui_skins/component/KeywordSkin.exml",
+    "resource/eui_skins/component/VSSkin.exml",
+    "resource/eui_skins/game/GameSkin.exml",
+    "resource/eui_skins/game/IndexSkin.exml",
+    "resource/eui_skins/game/LoginSkin.exml",
+    "resource/eui_skins/game/TopbarSkin.exml"
+  ],
+  "skins": {}
+}

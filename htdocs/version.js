@@ -1,0 +1,1 @@
+location.href='game.html?v=19154';

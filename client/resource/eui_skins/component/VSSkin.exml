@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="VSSkin" width="480" height="174" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="grpLeft" height="161" width="300" x="-20" y="0">
+		<e:Image height="161" width="300" x="0" y="0" source="vs_left_png" locked="true"/>
+		<e:Image height="139" width="99" x="60" y="6" source="seat_bg_png"/>
+		<e:Label id="labName1" text="标签" x="69" y="12" size="14" fontFamily="微软雅黑" width="73" textAlign="center"/>
+		<e:Image id="imgAvatar1" height="70" width="70" x="73" y="38" source="face_jpg"/>
+		<e:Label id="labPoint1" text="1111" x="75" y="117" size="18" fontFamily="微软雅黑" width="65" textAlign="center"/>
+	</e:Group>
+	<e:Group id="grpRight" height="161" width="300" x="193" y="19">
+		<e:Image height="161" width="300" x="0" y="0" source="vs_right_png" locked="true"/>
+		<e:Image source="seat_bg_png" width="99" y="11" height="139" x="150"/>
+		<e:Image id="imgAvatar2" source="face_jpg" width="70" y="42" height="70" x="163"/>
+		<e:Label id="labPoint2" y="121" text="1111" fontFamily="微软雅黑" textAlign="center" width="65" size="18" x="167"/>
+		<e:Label id="labName2" y="17" text="标签" fontFamily="微软雅黑" textAlign="center" width="73" size="14" x="160"/>
+	</e:Group>
+	<e:Image id="imgLose" height="80" width="80" x="85" y="73" source="lose_png" anchorOffsetX="40" anchorOffsetY="40" visible="false"/>
+</e:Skin>

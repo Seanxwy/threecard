@@ -1,0 +1,28 @@
+{
+  "native": {
+    "path_ignore": []
+  },
+  "publish": {
+    "web": 0,
+    "native": 1,
+    "path": "bin-release"
+  },
+  "egret_version": "3.0.8",
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "eui"
+    },
+    {
+      "name": "res"
+    },
+    {
+      "name": "socket"
+    },
+    {
+      "name": "tween"
+    }
+  ]
+}

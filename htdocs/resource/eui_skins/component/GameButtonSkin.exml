@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GameButtonSkin" width="83" height="112" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image height="26" width="65" x="10" y="83" source="game_btn_text_png"/>
+	<e:Label id="labName" text="加注" x="24" y="86" size="18" fontFamily="微软雅黑"/>
+	<e:Image id="imgIcon" height="87" width="83" x="0" y="0" source="follow_enable_png"/>
+	<e:Label id="labText" text="标签" y="28" horizontalCenter="0.5" size="20" fontFamily="微软雅黑"/>
+</e:Skin>

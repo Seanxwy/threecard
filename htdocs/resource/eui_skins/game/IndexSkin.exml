@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="IndexSkin" width="480" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image height="100%" width="100%" x="0" y="0" source="index_bg_jpg" locked="true"/>
+	<e:Image height="212" width="212" x="17" y="570" source="index_enter_bg_png" locked="true"/>
+	<e:Image height="212" width="212" x="254" y="570" source="index_create_bg_png" locked="true"/>
+	<e:Image id="imgEnterBg" height="212" width="212" x="122" y="676" source="index_enter_bg2_png" anchorOffsetX="106" anchorOffsetY="106"/>
+	<e:Image id="imgEnter" height="151" width="176" x="122" y="678" source="index_enter_png" anchorOffsetX="88" anchorOffsetY="75"/>
+	<e:Image id="imgCreateBg" height="212" width="212" x="361" y="676" source="index_create_bg2_png" anchorOffsetX="106" anchorOffsetY="106"/>
+	<e:Image id="imgCreate" height="151" width="176" x="359" y="680" source="index_create_png" anchorOffsetX="88" anchorOffsetY="75"/>
+	<e:Group id="grpInput" height="449" width="326" y="113" horizontalCenter="-1" visible="false">
+		<e:Image height="100%" width="100%" x="0" y="0" source="input_bg_png" locked="true"/>
+		<e:Button id="btnNum1" label="1" x="23" y="149" width="68" height="70" skinName="KeywordSkin"/>
+		<e:Button id="btnNum2" y="149" x="93" width="68" label="2" height="70" skinName="KeywordSkin"/>
+		<e:Button id="btnNum3" y="149" x="163" width="68" label="3" height="70" skinName="KeywordSkin"/>
+		<e:Button id="btnBackspace" y="149" x="233" width="68" label="退格" height="70" skinName="KeywordSkin"/>
+		<e:Button id="btnNum4" y="221" x="23" width="68" label="4" height="70" skinName="KeywordSkin"/>
+		<e:Button id="btnNum5" y="221" x="93" width="68" label="5" height="70" skinName="KeywordSkin"/>
+		<e:Button id="btnNum6" y="221" x="163" width="68" label="6" height="70" skinName="KeywordSkin"/>
+		<e:Button id="btnCloseKeyboard" y="221" x="233" width="68" label="关闭" height="70" skinName="KeywordSkin"/>
+		<e:Button id="btnNum7" y="293" x="23" width="68" label="7" height="70" skinName="KeywordSkin"/>
+		<e:Button id="btnNum8" y="293" x="93" width="68" label="8" height="70" skinName="KeywordSkin"/>
+		<e:Button id="btnNum9" y="293" x="163" width="68" label="9" height="70" skinName="KeywordSkin"/>
+		<e:Button id="btnNum0" y="293" x="233" width="68" label="0" height="70" skinName="KeywordSkin"/>
+		<e:Button id="btnOk" label="确定" x="161" y="406" width="149" height="56" anchorOffsetX="74" anchorOffsetY="28">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="input_ok_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="微软雅黑" size="24"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label text="请输入房间号" x="95" y="11" fontFamily="微软雅黑" size="22" textColor="0xEBDCBB"/>
+		<e:Image height="59" width="278" x="22" y="85" source="enter_input_jpg" scale9Grid="95,13,122,44"/>
+		<e:Label id="labRoomId" x="45" y="96" width="234" textAlign="center" fontFamily="微软雅黑" height="36" text="11111111" size="32" verticalAlign="middle"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="KeywordSkin" states="up,down,disabled" width="56" height="58"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image height="100%" width="100%" x="0" y="0" source.down="input_btn_down_png" source="input_btn_up_png"/>
+	<e:Label id="labelDisplay" x="0" y="0" size="24" width="100%" height="100%" textAlign="center" verticalAlign="middle" border="false" fontFamily="微软雅黑"/>
+</e:Skin>
